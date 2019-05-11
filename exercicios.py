@@ -63,3 +63,14 @@ else:
         soma += 1/c[i]
     cp = 1/soma
     print("Capacitancia resultante é {}".format(round(cp,2)))
+'''6=================================================================='''
+
+def vol_esfera(raio):
+    v = (3/4)*math.pi*pow(raio,3)
+    return v
+
+def vol_pote_sorteve(x,y,z):
+    return x*y*z
+print(math.trunc(vol_esfera(1.2)))
+print(math.trunc((vol_pote_sorteve(15,10,13)*0.74)/vol_esfera(1.2)))
+
